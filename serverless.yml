@@ -13,7 +13,7 @@ provider:
     TABLE_NAME: ${sls:stage}-t_peliculas
 
 functions:
-  crear:
+  pelicula_crear:
     handler: CrearPelicula.lambda_handler
     events:
       - http:
